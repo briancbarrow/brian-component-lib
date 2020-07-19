@@ -1,6 +1,6 @@
 {
   "name": "brian-component-lib",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Sample Component Library",
   "main": "dist/brian-component-lib.ssr.js",
   "browser": "dist/brian-component-lib.esm.js",
