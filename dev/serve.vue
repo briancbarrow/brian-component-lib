@@ -1,12 +1,12 @@
 <script>
 import Vue from "vue";
-import { BrianComponentLibSample, FccStartButton } from "@/entry";
+import { BrianComponentLibSample, FccButton } from "@/entry";
 
 export default Vue.extend({
   name: "ServeDev",
   components: {
     BrianComponentLibSample,
-    FccStartButton
+    FccButton
   }
 });
 </script>
@@ -14,6 +14,6 @@ export default Vue.extend({
 <template>
   <div id="app">
     <brian-component-lib-sample />
-    <FccStartButton />
+    <FccButton />
   </div>
 </template>

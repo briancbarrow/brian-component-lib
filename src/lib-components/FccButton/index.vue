@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "FccStartButton", // vue component name
+  name: "FccButton", // vue component name
   props: {
     text: {
       type: String,
@@ -17,24 +17,16 @@ export default {
 
 <style>
 .btn-cta {
-  background-color: #feac32;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#fecc4c),
-    to(#ffac33)
-  );
-  background-image: linear-gradient(#fecc4c, #ffac33);
+  background-color: #d0d0d5;
   border-width: 3px;
-  border-color: #feac32;
+  border-color: #1b1b32;
+  border-radius: 0;
   border-style: solid;
-  color: #0a0a23;
-  display: inline-block;
+  color: #1b1b32;
+  display: block;
   margin-bottom: 0;
   font-weight: normal;
   text-align: center;
-  vertical-align: middle;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
   cursor: pointer;
@@ -47,10 +39,10 @@ export default {
 .btn-cta:active:hover,
 .btn-cta:focus,
 .btn-cta:hover {
-  background-color: #fecc4c;
+  background-color: #1b1b32;
   border-width: 3px;
-  border-color: #f1a02a;
+  border-color: #000;
   background-image: none;
-  color: #0a0a23;
+  color: #f5f6f7;
 }
 </style>
