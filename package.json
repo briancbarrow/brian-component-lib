@@ -16,7 +16,9 @@
     "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=29guyagnan5"
   },
   "dependencies": {},
   "devDependencies": {
@@ -34,6 +36,7 @@
     "@vue/cli-service": "^4.3.1",
     "babel-loader": "^8.1.0",
     "babel-preset-vue": "^2.0.2",
+    "chromatic": "^5.0.0",
     "cross-env": "^7.0.2",
     "minimist": "^1.2.5",
     "rollup": "^2.7.3",

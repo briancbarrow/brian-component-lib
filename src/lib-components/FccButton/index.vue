@@ -17,7 +17,7 @@ export default {
 
 <style>
 .btn-cta {
-  background-color: #d0d0d5;
+  background-color: rgb(32, 116, 184);
   border-width: 3px;
   border-color: #1b1b32;
   border-radius: 0;
