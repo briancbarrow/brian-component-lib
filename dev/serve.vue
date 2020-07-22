@@ -1,11 +1,10 @@
 <script>
 import Vue from "vue";
-import { BrianComponentLibSample, FccButton } from "@/entry";
+import { FccButton } from "@/entry";
 
 export default Vue.extend({
   name: "ServeDev",
   components: {
-    BrianComponentLibSample,
     FccButton
   }
 });
